@@ -15,8 +15,8 @@ const App = () => {
     
     <div>
       <SavedList list={savedList} />
-      <NavLink to="/MovieList">Home</NavLink>
-      <NavLink to="/Movie">Movies</NavLink>
+      {/* <NavLink to="/MovieList">Home</NavLink>
+      <NavLink to="/Movie">Movies</NavLink> */}
       <Switch>
         <Route exact path="/MovieList">
           <MovieList />
